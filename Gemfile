@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.2'
+ruby '1.9.3'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
@@ -21,6 +21,7 @@ end
 
 group :development do
   gem 'annotate', '2.5.0'
+  gem 'awesome_print'
 end
 
 # Gems used only for assets and not required
@@ -39,6 +40,7 @@ group :test do
 	gem 'capybara', '1.1.2'
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 group :production do
